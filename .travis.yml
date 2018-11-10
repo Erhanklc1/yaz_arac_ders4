@@ -1,0 +1,5 @@
+language: java
+sudo: false
+  -"mvn -f Ders4Proje/pom.xml clean install"
+  jdk:
+    -oraclejdk8
